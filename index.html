@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script>(function () { var t = localStorage.getItem('sahakosh_theme'); if (!t) { t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; } document.documentElement.setAttribute('data-theme', t); })();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saha Kosh</title>
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23003d9b'/%3E%3Ctext x='12' y='16.5' font-family='Arial,sans-serif' font-weight='700' font-size='10' fill='white' text-anchor='middle'%3ESK%3C/text%3E%3C/svg%3E">
+    <meta name="description"
+        content="Saha Kosh — Nepal's unified cooperative finance platform for managing members, savings, loans, community programs, and marketplace activity.">
+    <link rel="stylesheet" href="#">
+</head>
+
+<body>
+    <div class="app-shell">
+
+        <div class="sidebar-overlay" data-sidebar-overlay></div>
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <div class="logo"
+                    style="display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--blue-700);">
+                    SK</div>
+                <div class="title">Saha <span>Kosh</span></div>
+                <div class="subtitle">Nepal Unified Platform</div>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#" class="active">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="9" rx="1" />
+                        <rect x="14" y="3" width="7" height="5" rx="1" />
+                        <rect x="14" y="12" width="7" height="9" rx="1" />
+                        <rect x="3" y="16" width="7" height="5" rx="1" />
+                    </svg>
+                    Dashboard
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
+                    Members
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                    </svg>
+                    Finance
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="7" width="20" height="14" rx="2" />
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                    </svg>
+                    Loans
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    </svg>
+                    Community
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.3 4.6A1 1 0 0 0 5.6 19H19" />
+                        <circle cx="9" cy="21" r="1" />
+                        <circle cx="18" cy="21" r="1" />
+                    </svg>
+                    Marketplace
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.6z" />
+                    </svg>
+                    Donations
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="8" r="6" />
+                        <path d="M8.21 13.89 7 23l5-3 5 3-1.21-9.12" />
+                    </svg>
+                    Opportunities
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                        <path d="M14 2v6h6" />
+                    </svg>
+                    Reports
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 3v18h18" />
+                        <path d="m19 9-5 5-4-4-3 3" />
+                    </svg>
+                    Analytics
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="m21 21-4.35-4.35" />
+                    </svg>
+                    Audit Logs
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                        <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+                    </svg>
+                    Notifications
+                </a>
+                <a href="#">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3" />
+                        <path
+                            d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+                    </svg>
+                    Settings
+                </a>
+            </nav>
+            <div class="sidebar-help">
+                <div class="sidebar-help-card">
+                    <p>Need assistance?</p>
+                    <button>Support Portal</button>
+                </div>
+            </div>
+        </aside>
+
+        <header class="topbar">
+            <button class="btn-icon nav-toggle" aria-label="Toggle navigation" data-toggle-sidebar>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6" />
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="3" y1="18" x2="21" y2="18" />
+                </svg>
+            </button>
+            <div class="search-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.35-4.35" />
+                </svg>
+                <input type="text" placeholder="Search members, transactions, loans…">
+            </div>
+            <div class="actions">
+                <button class="btn btn-ghost">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="5" x2="12" y2="19" />
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                    </svg>
+                    Add Member
+                </button>
+                <button class="btn btn-ghost">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="1" x2="12" y2="23" />
+                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                    </svg>
+                    New Transaction
+                </button>
+                <div class="vdiv"></div>
+                <button class="btn-icon theme-toggle" aria-label="Toggle dark mode" data-theme-toggle>
+                    <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <circle cx="12" cy="12" r="5" />
+                        <line x1="12" y1="1" x2="12" y2="3" />
+                        <line x1="12" y1="21" x2="12" y2="23" />
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                        <line x1="1" y1="12" x2="3" y2="12" />
+                        <line x1="21" y1="12" x2="23" y2="12" />
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                    </svg>
+                    <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                    </svg>
+                </button>
+                <button class="btn-icon" aria-label="Help">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 2-3 4" />
+                        <line x1="12" y1="17" x2="12.01" y2="17" />
+                    </svg>
+                </button>
+                <a class="btn-icon" aria-label="Notifications" href="#">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                        <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+                    </svg>
+                </a>
+                <a href="#" aria-label="View profile"><img class="avatar" src="https://i.pravatar.cc/64?img=12"
+                        alt="Administrator"></a>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="content">
+                <div class="page-head">
+                    <div>
+                        <div class="breadcrumb"><span>Home</span><span>/</span><span class="current">Dashboard</span>
+                        </div>
+                        <h1 class="page-title">Administrative Overview</h1>
+                    </div>
+                    <div class="page-actions">
+                        <button class="btn btn-outline">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                            Generate Report
+                        </button>
+                        <button class="btn btn-primary">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                            Add Member
+                        </button>
+                    </div>
+                </div>
+
+                <div class="kpi-grid">
+                    <div class="card kpi">
+                        <div class="kpi-label">Total<br>Members</div>
+                        <div>
+                            <div class="kpi-value blue">1,240</div>
+                            <div class="kpi-sub green">↑ +12% vs last mo</div>
+                        </div>
+                    </div>
+                    <div class="card kpi">
+                        <div class="kpi-label">Total<br>Savings</div>
+                        <div>
+                            <div class="kpi-value">Rs. 4.2M</div>
+                            <div class="kpi-sub green">↑ Rs. 450K growth</div>
+                        </div>
+                    </div>
+                    <div class="card kpi">
+                        <div class="kpi-label">Active<br>Loans</div>
+                        <div>
+                            <div class="kpi-value">342</div>
+                            <div class="kpi-sub red">▲ 8 Risk cases</div>
+                        </div>
+                    </div>
+                    <div class="card kpi">
+                        <div class="kpi-label">Monthly<br>Collections</div>
+                        <div>
+                            <div class="kpi-value">Rs. 850K</div>
+                            <div class="kpi-sub green">✓ 94% of target</div>
+                        </div>
+                    </div>
+                    <div class="card kpi">
+                        <div class="kpi-label">Marketplace</div>
+                        <div>
+                            <div class="kpi-value">Rs. 120K</div>
+                            <div class="kpi-sub" style="opacity:.7">42 orders</div>
+                        </div>
+                    </div>
+                    <div class="card kpi highlight">
+                        <div class="kpi-label blue">Pending</div>
+                        <div>
+                            <div class="kpi-value red">12</div>
+                            <div class="kpi-sub link">Action Required →</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-2" style="margin-bottom:24px;">
+                    <div class="grid-2c">
+                        <div class="card panel">
+                            <div class="panel-head"><span class="panel-title">Savings Growth</span></div>
+                            <svg viewBox="0 0 240 100" width="100%" height="100" preserveAspectRatio="none">
+                                <polyline points="0,80 40,70 80,72 120,55 160,25 200,15 240,12" fill="none"
+                                    stroke="#003d9b" stroke-width="2" />
+                                <polygon points="0,80 40,70 80,72 120,55 160,25 200,15 240,12 240,100 0,100"
+                                    fill="rgba(0,61,155,0.08)" />
+                            </svg>
+                            <div
+                                style="display:flex;justify-content:space-between;font-size:10px;color:var(--text-muted);opacity:.7;">
+                                <span>Jan</span><span>Mar</span><span>May</span></div>
+                        </div>
+                        <div class="card panel">
+                            <div class="panel-head"><span class="panel-title">Loan Recovery</span></div>
+                            <div style="display:flex;align-items:flex-end;gap:16px;height:100px;padding:8px 12px 0;">
+                                <div
+                                    style="width:16px;height:20%;background:rgba(0,108,73,.2);border-radius:2px 2px 0 0;position:relative;">
+                                    <div
+                                        style="position:absolute;bottom:0;width:100%;height:85%;background:#006c49;border-radius:2px 2px 0 0;">
+                                    </div>
+                                </div>
+                                <div
+                                    style="width:16px;height:100%;background:rgba(0,108,73,.2);border-radius:2px 2px 0 0;position:relative;">
+                                    <div
+                                        style="position:absolute;bottom:0;width:100%;height:92%;background:#006c49;border-radius:2px 2px 0 0;">
+                                    </div>
+                                </div>
+                                <div
+                                    style="width:16px;height:78%;background:rgba(0,108,73,.2);border-radius:2px 2px 0 0;position:relative;">
+                                    <div
+                                        style="position:absolute;bottom:0;width:100%;height:78%;background:#006c49;border-radius:2px 2px 0 0;">
+                                    </div>
+                                </div>
+                                <div
+                                    style="width:16px;height:94%;background:rgba(0,108,73,.2);border-radius:2px 2px 0 0;position:relative;">
+                                    <div
+                                        style="position:absolute;bottom:0;width:100%;height:94%;background:#006c49;border-radius:2px 2px 0 0;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                style="display:flex;justify-content:space-between;font-size:10px;color:var(--text-muted);opacity:.7;margin-top:8px;">
+                                <span>Target</span><strong style="color:var(--green-700);">94% Achieved</strong></div>
+                        </div>
+                        <div class="card panel">
+                            <div class="panel-head"><span class="panel-title">Member Growth</span></div>
+                            <svg viewBox="0 0 240 90" width="100%" height="90" preserveAspectRatio="none">
+                                <polyline points="0,60 40,55 80,58 120,40 160,45 200,30 240,20" fill="none"
+                                    stroke="#003d9b" stroke-width="2" stroke-dasharray="4 3" />
+                            </svg>
+                            <div style="text-align:center;margin-top:4px;"><span
+                                    style="font-size:20px;color:var(--blue-700);">+124</span> <span
+                                    style="font-size:13px;color:var(--text-secondary);">this month</span></div>
+                        </div>
+                        <div class="card panel">
+                            <div
+                                style="display:flex;align-items:flex-end;justify-content:center;gap:4px;height:100px;padding-top:8px;">
+                                <div
+                                    style="width:20%;height:40%;background:rgba(0,61,155,.4);border-radius:2px 2px 0 0;">
+                                </div>
+                                <div
+                                    style="width:20%;height:60%;background:rgba(96,59,0,.4);border-radius:2px 2px 0 0;">
+                                </div>
+                                <div
+                                    style="width:20%;height:55%;background:rgba(0,61,155,.4);border-radius:2px 2px 0 0;">
+                                </div>
+                                <div
+                                    style="width:20%;height:70%;background:rgba(96,59,0,.4);border-radius:2px 2px 0 0;">
+                                </div>
+                                <div
+                                    style="width:20%;height:90%;background:rgba(96,59,0,.4);border-radius:2px 2px 0 0;">
+                                </div>
+                            </div>
+                            <div
+                                style="display:flex;gap:16px;justify-content:center;font-size:10px;margin-top:8px;color:var(--text-primary);">
+                                <span>● Fees</span><span>● Market</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card alerts">
+                        <div class="panel-head">
+                            <h3 class="panel-h3">Critical Alerts</h3><span class="badge red">High Priority</span>
+                        </div>
+                        <div class="alert red">
+                            <div>
+                                <h4>Overdue EMI (5)</h4>
+                                <p>Total overdue amount: Rs. 42,000</p>
+                                <a href="#">Review delinquent accounts</a>
+                            </div>
+                        </div>
+                        <div class="alert amber">
+                            <div>
+                                <h4>Pending Loan Reviews (3)</h4>
+                                <p>Average aging: 2.5 days</p>
+                                <a href="#">Start approval flow</a>
+                            </div>
+                        </div>
+                        <div class="alert blue">
+                            <div>
+                                <h4>KYC Pending (8)</h4>
+                                <p>Restricted access for these members</p>
+                                <a href="#">Notify members</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card list-card">
+                    <div class="list-head">
+                        <h3>Recent Activity Feed</h3><a href="#">View All Activity</a>
+                    </div>
+
+                    <div class="list-row">
+                        <div class="list-left">
+                            <div class="list-icon" style="background:var(--green-100);">↓</div>
+                            <div>
+                                <div class="list-title">Loan EMI Payment — Aayush Dhungel</div>
+                                <div class="list-sub">Reference #TXN-49202 | 10:42 AM</div>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-amount green">+ Rs. 15,200.00</div><span
+                                class="pill success">Success</span>
+                        </div>
+                    </div>
+
+                    <div class="list-row">
+                        <div class="list-left">
+                            <div class="list-icon"
+                                style="background:var(--blue-100);font-size:11px;font-weight:700;color:var(--text-primary);">
+                                P</div>
+                            <div>
+                                <div class="list-title">New Member Registration — Angel Shrestha</div>
+                                <div class="list-sub">Profile verification in progress | 09:15 AM</div>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div style="font-size:14px;">ID: M-2024-812</div><span class="pill pending">Pending
+                                Audit</span>
+                        </div>
+                    </div>
+
+                    <div class="list-row">
+                        <div class="list-left">
+                            <div class="list-icon"
+                                style="background:var(--blue-100);font-size:11px;font-weight:700;color:var(--text-primary);">
+                                B</div>
+                            <div>
+                                <div class="list-title">Bulk Savings Deposit — Agriculture Group B</div>
+                                <div class="list-sub">Reference #TXN-49198 | Yesterday, 4:50 PM</div>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-amount blue">+ Rs. 210,000.00</div><span
+                                class="pill success">Success</span>
+                        </div>
+                    </div>
+
+                    <div class="list-row">
+                        <div class="list-left">
+                            <div class="list-icon"
+                                style="background:var(--blue-100);font-size:11px;font-weight:700;color:var(--text-primary);">
+                                SS</div>
+                            <div>
+                                <div class="list-title">Successfully Delivered — Sanjeev Shrestha</div>
+                                <div class="list-sub">#ORD-9921 | Oct 24, 2026 | 09:15 AM</div>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div style="font-size:14px;">Rs. 3450</div><span class="pill success">Delivered</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
