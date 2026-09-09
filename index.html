@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <script>(function () { var t = localStorage.getItem('sahakosh_theme'); if (!t) { t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; } document.documentElement.setAttribute('data-theme', t); })();</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saha Kosh</title>
+    <title>Dashboard — Saha Kosh</title>
     <link rel="icon"
         href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23003d9b'/%3E%3Ctext x='12' y='16.5' font-family='Arial,sans-serif' font-weight='700' font-size='10' fill='white' text-anchor='middle'%3ESK%3C/text%3E%3C/svg%3E">
     <meta name="description"
         content="Saha Kosh — Nepal's unified cooperative finance platform for managing members, savings, loans, community programs, and marketplace activity.">
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="css/base.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
                 <div class="subtitle">Nepal Unified Platform</div>
             </div>
             <nav class="sidebar-nav">
-                <a href="#" class="active">
+                <a href="index.html" class="active">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <rect x="3" y="3" width="7" height="9" rx="1" />
                         <rect x="14" y="3" width="7" height="5" rx="1" />
@@ -35,7 +35,7 @@
                     </svg>
                     Dashboard
                 </a>
-                <a href="#">
+                <a href="members.html">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                         <circle cx="9" cy="7" r="4" />
@@ -44,20 +44,20 @@
                     </svg>
                     Members
                 </a>
-                <a href="#">
+                <a href="savings.html">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
                     </svg>
                     Finance
                 </a>
-                <a href="#">
+                <a href="loans.html">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <rect x="2" y="7" width="20" height="14" rx="2" />
                         <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
                     </svg>
                     Loans
                 </a>
-                <a href="#">
+                <a href="community.html">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                         <circle cx="9" cy="7" r="4" />
@@ -65,7 +65,7 @@
                     </svg>
                     Community
                 </a>
-                <a href="#">
+                <a href="marketplace.html">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.3 4.6A1 1 0 0 0 5.6 19H19" />
                         <circle cx="9" cy="21" r="1" />
@@ -73,49 +73,49 @@
                     </svg>
                     Marketplace
                 </a>
-                <a href="#">
+                <a href="donations.html">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path
                             d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.6z" />
                     </svg>
                     Donations
                 </a>
-                <a href="#">
+                <a href="opportunities.html">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="12" cy="8" r="6" />
                         <path d="M8.21 13.89 7 23l5-3 5 3-1.21-9.12" />
                     </svg>
                     Opportunities
                 </a>
-                <a href="#">
+                <a href="reports.html">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                         <path d="M14 2v6h6" />
                     </svg>
                     Reports
                 </a>
-                <a href="#">
+                <a href="analytics.html">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M3 3v18h18" />
                         <path d="m19 9-5 5-4-4-3 3" />
                     </svg>
                     Analytics
                 </a>
-                <a href="#">
+                <a href="audit-logs.html">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="11" cy="11" r="8" />
                         <path d="m21 21-4.35-4.35" />
                     </svg>
                     Audit Logs
                 </a>
-                <a href="#">
+                <a href="notifications.html">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
                         <path d="M13.73 21a2 2 0 0 1-3.46 0" />
                     </svg>
                     Notifications
                 </a>
-                <a href="#">
+                <a href="settings.html">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <circle cx="12" cy="12" r="3" />
                         <path
@@ -188,14 +188,14 @@
                         <line x1="12" y1="17" x2="12.01" y2="17" />
                     </svg>
                 </button>
-                <a class="btn-icon" aria-label="Notifications" href="#">
+                <a class="btn-icon" aria-label="Notifications" href="notifications.html">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
                         <path d="M13.73 21a2 2 0 0 1-3.46 0" />
                     </svg>
                 </a>
-                <a href="#" aria-label="View profile"><img class="avatar" src="https://i.pravatar.cc/64?img=12"
-                        alt="Administrator"></a>
+                <a href="admin-profile.html" aria-label="View profile"><img class="avatar"
+                        src="https://i.pravatar.cc/64?img=12" alt="Administrator"></a>
             </div>
         </header>
 
@@ -271,10 +271,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="grid-2" style="margin-bottom:24px;">
                     <div class="grid-2c">
                         <div class="card panel">
-                            <div class="panel-head"><span class="panel-title">Savings Growth</span></div>
+                            <div class="panel-head"><span class="panel-title">Savings Growth</span><span>📈</span></div>
                             <svg viewBox="0 0 240 100" width="100%" height="100" preserveAspectRatio="none">
                                 <polyline points="0,80 40,70 80,72 120,55 160,25 200,15 240,12" fill="none"
                                     stroke="#003d9b" stroke-width="2" />
@@ -286,7 +287,7 @@
                                 <span>Jan</span><span>Mar</span><span>May</span></div>
                         </div>
                         <div class="card panel">
-                            <div class="panel-head"><span class="panel-title">Loan Recovery</span></div>
+                            <div class="panel-head"><span class="panel-title">Loan Recovery</span><span>📊</span></div>
                             <div style="display:flex;align-items:flex-end;gap:16px;height:100px;padding:8px 12px 0;">
                                 <div
                                     style="width:16px;height:20%;background:rgba(0,108,73,.2);border-radius:2px 2px 0 0;position:relative;">
@@ -318,7 +319,7 @@
                                 <span>Target</span><strong style="color:var(--green-700);">94% Achieved</strong></div>
                         </div>
                         <div class="card panel">
-                            <div class="panel-head"><span class="panel-title">Member Growth</span></div>
+                            <div class="panel-head"><span class="panel-title">Member Growth</span><span>👥</span></div>
                             <svg viewBox="0 0 240 90" width="100%" height="90" preserveAspectRatio="none">
                                 <polyline points="0,60 40,55 80,58 120,40 160,45 200,30 240,20" fill="none"
                                     stroke="#003d9b" stroke-width="2" stroke-dasharray="4 3" />
@@ -328,6 +329,7 @@
                                     style="font-size:13px;color:var(--text-secondary);">this month</span></div>
                         </div>
                         <div class="card panel">
+                            <div class="panel-head"><span class="panel-title">Revenue Trends</span><span>🏦</span></div>
                             <div
                                 style="display:flex;align-items:flex-end;justify-content:center;gap:4px;height:100px;padding-top:8px;">
                                 <div
@@ -352,33 +354,38 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="card alerts">
                         <div class="panel-head">
                             <h3 class="panel-h3">Critical Alerts</h3><span class="badge red">High Priority</span>
                         </div>
                         <div class="alert red">
+                            <span class="alert-icon">⚠️</span>
                             <div>
                                 <h4>Overdue EMI (5)</h4>
                                 <p>Total overdue amount: Rs. 42,000</p>
-                                <a href="#">Review delinquent accounts</a>
+                                <a href="loans.html">Review delinquent accounts</a>
                             </div>
                         </div>
                         <div class="alert amber">
+                            <span class="alert-icon">⏳</span>
                             <div>
                                 <h4>Pending Loan Reviews (3)</h4>
                                 <p>Average aging: 2.5 days</p>
-                                <a href="#">Start approval flow</a>
+                                <a href="loan-approval.html">Start approval flow</a>
                             </div>
                         </div>
                         <div class="alert blue">
+                            <span class="alert-icon">🪪</span>
                             <div>
                                 <h4>KYC Pending (8)</h4>
                                 <p>Restricted access for these members</p>
-                                <a href="#">Notify members</a>
+                                <a href="members.html">Notify members</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="card list-card">
                     <div class="list-head">
                         <h3>Recent Activity Feed</h3><a href="#">View All Activity</a>
@@ -400,9 +407,7 @@
 
                     <div class="list-row">
                         <div class="list-left">
-                            <div class="list-icon"
-                                style="background:var(--blue-100);font-size:11px;font-weight:700;color:var(--text-primary);">
-                                P</div>
+                            <div class="list-icon" style="background:var(--blue-100);overflow:hidden;">👤</div>
                             <div>
                                 <div class="list-title">New Member Registration — Angel Shrestha</div>
                                 <div class="list-sub">Profile verification in progress | 09:15 AM</div>
@@ -416,9 +421,7 @@
 
                     <div class="list-row">
                         <div class="list-left">
-                            <div class="list-icon"
-                                style="background:var(--blue-100);font-size:11px;font-weight:700;color:var(--text-primary);">
-                                B</div>
+                            <div class="list-icon" style="background:rgba(0,82,204,.3);">🏦</div>
                             <div>
                                 <div class="list-title">Bulk Savings Deposit — Agriculture Group B</div>
                                 <div class="list-sub">Reference #TXN-49198 | Yesterday, 4:50 PM</div>
@@ -445,9 +448,12 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </main>
     </div>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
